@@ -1,0 +1,15 @@
+class RestaurantEmployee
+
+Attributes :
+
+  hoursWorked (float)
+  serverCard (boolean)
+  payRate (float)
+  position (string)
+
+Methods :
+
+  takeSickDay (This would indicate if the employee took a sick day and affect the hoursWorked)
+  payEmployee (This would calculate the employee's pay for the pay period. The attributes payRate and hoursWorked would be multiplied.)
+  getServerCard (This is a boolean to indicate if the employee has their food server's card. It would determine the value of serverCard as true or false.)
+  hireEmployee (This would give the employee a position and a payRate.)
