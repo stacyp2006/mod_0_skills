@@ -1,0 +1,9 @@
+var food = "Cherry"
+var isDelicious = true
+food = "Chips"
+var num2 = 36
+var num7 = 360
+var quotient = (num7/num2)
+var songs = ["Row, Row Your Boat", "Twinkle, Twinkle", "Mary Had a Little Lamb"]
+var first = songs.shift()
+var n = food.length
