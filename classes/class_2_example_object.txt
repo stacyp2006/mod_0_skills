@@ -1,0 +1,15 @@
+fridaySchedule
+
+Values
+
+  open = true
+  totalSeats = 100
+  reservation = 48
+  waitStaff = ["Tim", "Stacy", "Olivia", "Kate"]
+
+Methods
+
+  openRestaurant: open = true
+  makeReservation: reservation changes from 48 to 50
+  spaceAvailable: (100-50), there are 50 seats available
+  scheduleStaff: adds names to array
