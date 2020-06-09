@@ -1,0 +1,17 @@
+employee1
+
+Values:
+
+  hoursWorked = 40
+  serverCard = true
+  payRate = 15.5
+  position = dishwasher
+
+Methods:
+
+  hireEmployee: gives employee a value for postion and payRate.
+  getServerCard: gives value of true
+  takeSickDay: reduces hoursWorked by 8, so hoursWorked = 32
+  payEmployee: multiplies hoursWorked by payRate to get total pay for that pay period
+
+  
