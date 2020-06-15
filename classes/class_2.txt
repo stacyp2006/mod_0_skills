@@ -2,7 +2,7 @@ class NightlySchedule
 
 Attributes
 
-  open (boolean)
+  isOpen (boolean)
   totalSeats (integer)
   reservation (integer)
   waitStaff (array)
@@ -10,8 +10,6 @@ Attributes
 Methods
 
   openRestaurant (This method changes the value of open to either true or false)
-  spaceAvailable (This method determines the spaceAvailable by subtracting reservations from totalSeats)
+  calculateSpaceAvailable (This method determines the spaceAvailable by subtracting reservations from totalSeats)
   makeReservation (This method increase the reservation value)
   scheduleStaff (This method puts staff names in the array)
-
-  
